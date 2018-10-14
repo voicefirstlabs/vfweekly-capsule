@@ -1,0 +1,3 @@
+text (ImageUrl) {
+  description (url for the thumbnail of the episode)
+}

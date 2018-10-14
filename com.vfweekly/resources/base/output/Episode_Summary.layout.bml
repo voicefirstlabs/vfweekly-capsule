@@ -1,0 +1,18 @@
+<layout type="details">
+  <match>
+    Episode (this)
+  </match>
+  <content>
+    <a href={{this.episodeUrl}}>
+      <layout-macro id="common:card">
+        <title>{{this.title}}</title>
+        <image>{{#try}}{{ this.imageUrl }}{{/try}}</image>
+        <imageType>thumbnail</imageType>
+        <bodyText>{{this.description}}</bodyText>
+        <thumbnailPosition>left</thumbnailPosition>
+        <thumbnailMetaData>&#9654; {{this.duration}}</thumbnailMetaData>
+      </layout-macro>
+    </a>
+  </content>
+  <style></style>
+</layout>

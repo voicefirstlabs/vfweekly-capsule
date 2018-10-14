@@ -1,0 +1,5 @@
+action (FindLastEpisode) {
+  type (Search)
+  description (Get the last episode of the podcast)
+  output (Episode)
+}

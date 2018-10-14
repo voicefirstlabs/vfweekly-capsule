@@ -1,0 +1,28 @@
+structure (Episode) {
+  description (Information of an episode)
+  property (title) {
+    type (EpisodeTitle)
+    min (Required) 
+    max (One)
+  }
+  property (description) {
+    type (EpisodeDescription)
+    min (Required) 
+    max (One)
+  }
+  property (episodeUrl) {
+    type (EpisodeUrl)
+    min (Required) 
+    max (One)
+  }  
+  property (imageUrl) {
+    type (ImageUrl)
+    min (Required) 
+    max (One)
+  }
+  property (duration) {
+    type (Duration)
+    min (Required) 
+    max (One)
+  }
+}

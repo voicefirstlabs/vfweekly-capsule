@@ -1,0 +1,8 @@
+dialog (Result) {
+  match {
+     Episode (episodeResult) {
+       from-output: FindLastEpisode (episodeOutput)
+     }
+   }
+  template("In this episode we talk about ${value(episodeResult.title)}!!!")
+}
