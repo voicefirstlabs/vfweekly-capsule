@@ -1,8 +1,4 @@
 endpoints {
-  authorization {
-    none    
-  }
-
   action-endpoints {
     action-endpoint (FindLastEpisode) {
       accepted-inputs ()

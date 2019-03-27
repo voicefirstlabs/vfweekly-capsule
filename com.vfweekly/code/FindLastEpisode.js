@@ -1,3 +1,5 @@
+var console = require('console');
+var http = require('http');
 module.exports.function = function findLastEpisode () {
   const url = 'https://feed.pippa.io/public/shows/5b1b5b967c78f2c616b56286?results=1';
   
