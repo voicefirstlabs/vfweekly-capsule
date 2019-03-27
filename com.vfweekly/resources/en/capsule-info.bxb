@@ -1,0 +1,9 @@
+description {
+  name (__NAME__)
+  displayName (VoiceFirst Weekly )
+  companyName (__COMPANY_NAME__)
+  iconUrl (/images/favicon.png)
+  description ("__DESCRIPTION__")
+  websiteUrl (https://example.com/)
+  termsUrl (https://example.com/terms-of-use/)
+}
